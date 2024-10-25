@@ -15,7 +15,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/doogee/X96Pro/device.mk)
 
 PRODUCT_DEVICE := X96Pro
-PRODUCT_NAME := omni_X96Pro
+PRODUCT_NAME := X96Pro
 PRODUCT_BRAND := DOOGEE
 PRODUCT_MODEL := X96Pro
 PRODUCT_MANUFACTURER := doogee

@@ -1,6 +1,6 @@
 # Copyright (C) 2024 The Android Open Source Project
 
-LOCAL_PATH := device/doogee/X96
+LOCAL_PATH := device/doogee/X96Pro
 
 PRODUCT_PLATFORM := sp9863a
 

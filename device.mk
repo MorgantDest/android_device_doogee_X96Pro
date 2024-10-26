@@ -1,6 +1,6 @@
- Copyright (C) 2024 The Android Open Source Project
+# Copyright (C) 2024 The Android Open Source Project
 
-LOCAL_PATH := device/doogee/X96Pro
+LOCAL_PATH := device/doogee/X96
 
 PRODUCT_PLATFORM := sp9863a
 
@@ -55,7 +55,3 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
-
-# OEM otacert
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(LOCAL_PATH)/security/releasekey

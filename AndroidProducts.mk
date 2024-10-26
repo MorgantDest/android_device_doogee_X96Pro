@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2024 The Android Open Source Project
 
 PRODUCT_MAKEFILES := \

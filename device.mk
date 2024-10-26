@@ -1,4 +1,4 @@
-# Copyright (C) 2024 The Android Open Source Project
+ Copyright (C) 2024 The Android Open Source Project
 
 LOCAL_PATH := device/doogee/X96Pro
 
@@ -59,8 +59,3 @@ PRODUCT_PACKAGES += \
 # OEM otacert
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/security/releasekey
-    otapreopt_script \
-    cppreopts.sh \
-    update_engine \
-    update_verifier \
-    update_engine_sideload

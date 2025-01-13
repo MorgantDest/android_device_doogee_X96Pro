@@ -181,7 +181,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_NO_USB_STORAGE := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_INCLUDE_LPTOOLS := true
-TW_DEVICE_VERSION := Morgart 
+TW_DEVICE_VERSION := Build by MorgartDest for X96Pro
 
 # MTP
 TW_MTP_DEVICE := /dev/mtp_usb
@@ -201,8 +201,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
-# Fix fastboot reboot
-TW_NO_FASTBOOT_BOOT := true
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi

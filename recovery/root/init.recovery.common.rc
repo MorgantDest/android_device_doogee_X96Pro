@@ -74,6 +74,7 @@ service gpsd /vendor/bin/gpsd
 
 on init
     # Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
+    setprop sys.usb.config adb
     write /sys/fs/selinux/checkreqprot 0
     start healthd
     chown system system /sys/bus/iio/devices/trigger0/name
@@ -363,7 +364,7 @@ on property:ro.bootmode=cali
     start vendor.mlogservice
 
 on property:ro.bootmode=factorytest
-    setprop sys.usb.config adb,vser,gser
+    setprop sys.usb.config adb,mtp,vser,gser
 
     mount_all /etc/recovery.tmpfsdata.fstab
     mount tmpfs tmpfs /data mode=0777
